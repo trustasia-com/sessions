@@ -1,10 +1,10 @@
 # sessions
 
-[![Run CI Lint](https://github.com/gin-contrib/sessions/actions/workflows/lint.yml/badge.svg)](https://github.com/gin-contrib/sessions/actions/workflows/lint.yml)
-[![Run Testing](https://github.com/gin-contrib/sessions/actions/workflows/testing.yml/badge.svg)](https://github.com/gin-contrib/sessions/actions/workflows/testing.yml)
+[![Run CI Lint](https://github.com/trustasia-com/sessions/actions/workflows/lint.yml/badge.svg)](https://github.com/trustasia-com/sessions/actions/workflows/lint.yml)
+[![Run Testing](https://github.com/trustasia-com/sessions/actions/workflows/testing.yml/badge.svg)](https://github.com/trustasia-com/sessions/actions/workflows/testing.yml)
 [![codecov](https://codecov.io/gh/gin-contrib/sessions/branch/master/graph/badge.svg)](https://codecov.io/gh/gin-contrib/sessions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gin-contrib/sessions)](https://goreportcard.com/report/github.com/gin-contrib/sessions)
-[![GoDoc](https://godoc.org/github.com/gin-contrib/sessions?status.svg)](https://godoc.org/github.com/gin-contrib/sessions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/trustasia-com/sessions)](https://goreportcard.com/report/github.com/trustasia-com/sessions)
+[![GoDoc](https://godoc.org/github.com/trustasia-com/sessions?status.svg)](https://godoc.org/github.com/trustasia-com/sessions)
 [![Join the chat at https://gitter.im/gin-gonic/gin](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gin-gonic/gin)
 
 Gin middleware for session management with multi-backend support:
@@ -23,13 +23,13 @@ Gin middleware for session management with multi-backend support:
 Download and install it:
 
 ```bash
-go get github.com/gin-contrib/sessions
+go get github.com/trustasia-com/sessions
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/gin-contrib/sessions"
+import "github.com/trustasia-com/sessions"
 ```
 
 ## Basic Examples
@@ -40,8 +40,8 @@ import "github.com/gin-contrib/sessions"
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/cookie"
+  "github.com/trustasia-com/sessions"
+  "github.com/trustasia-com/sessions/cookie"
   "github.com/gin-gonic/gin"
 )
 
@@ -70,8 +70,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/cookie"
+  "github.com/trustasia-com/sessions"
+  "github.com/trustasia-com/sessions/cookie"
   "github.com/gin-gonic/gin"
 )
 
@@ -112,8 +112,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/cookie"
+  "github.com/trustasia-com/sessions"
+  "github.com/trustasia-com/sessions/cookie"
   "github.com/gin-gonic/gin"
 )
 
@@ -146,8 +146,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/redis"
+  "github.com/trustasia-com/sessions"
+  "github.com/trustasia-com/sessions/redis"
   "github.com/gin-gonic/gin"
 )
 
@@ -183,8 +183,8 @@ package main
 
 import (
   "github.com/bradfitz/gomemcache/memcache"
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/memcached"
+  "github.com/trustasia-com/sessions"
+  "github.com/trustasia-com/sessions/memcached"
   "github.com/gin-gonic/gin"
 )
 
@@ -217,8 +217,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/memcached"
+  "github.com/trustasia-com/sessions"
+  "github.com/trustasia-com/sessions/memcached"
   "github.com/gin-gonic/gin"
   "github.com/memcachier/mc"
 )
@@ -253,8 +253,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/mongo"
+  "github.com/trustasia-com/sessions"
+  "github.com/trustasia-com/sessions/mongo"
   "github.com/gin-gonic/gin"
   "github.com/globalsign/mgo"
 )
@@ -294,8 +294,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-contrib/sessions"
-  "github.com/gin-contrib/sessions/memstore"
+  "github.com/trustasia-com/sessions"
+  "github.com/trustasia-com/sessions/memstore"
   "github.com/gin-gonic/gin"
 )
 
@@ -329,8 +329,8 @@ package main
 
 import (
 	"database/sql"
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/postgres"
+	"github.com/trustasia-com/sessions"
+	"github.com/trustasia-com/sessions/postgres"
 	"github.com/gin-gonic/gin"
 )
 

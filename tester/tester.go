@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
+	"github.com/trustasia-com/sessions"
 )
 
 type storeFactory func(*testing.T) sessions.Store
