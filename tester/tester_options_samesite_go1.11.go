@@ -1,3 +1,4 @@
+//go:build go1.11
 // +build go1.11
 
 package tester
@@ -8,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
+	"github.com/trustasia-com/sessions"
 )
 
 func testOptionSameSitego(t *testing.T, r *gin.Engine) {

@@ -2,9 +2,10 @@ package postgres
 
 import (
 	"database/sql"
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/tester"
 	"testing"
+
+	"github.com/trustasia-com/sessions"
+	"github.com/trustasia-com/sessions/tester"
 )
 
 const postgresTestServer = "postgres://testuser:testpw@localhost:5432/testdb?sslmode=disable"
