@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/redis"
 	"github.com/gin-gonic/gin"
+	"github.com/trustasia-com/sessions"
+	"github.com/trustasia-com/sessions/redis"
 )
 
 func main() {
