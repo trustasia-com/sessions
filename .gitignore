@@ -2,3 +2,5 @@ coverage.out
 vendor/*
 !/vendor/vendor.json
 .DS_Store
+/gorm/test.db
+.idea
