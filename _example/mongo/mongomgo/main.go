@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/globalsign/mgo"
 	"github.com/trustasia-com/sessions"
-	"github.com/trustasia-com/sessions/mongo"
+	"github.com/trustasia-com/sessions/mongo/mongomgo"
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 	}
 
 	c := session.DB("").C("sessions")
-	store := mongo.NewStore(c, 3600, true, []byte("secret"))
+	store := mongomgo.NewStore(c, 3600, true, []byte("secret"))
 	r.Use(sessions.Sessions("mysession", store))
 
 	r.GET("/incr", func(c *gin.Context) {
